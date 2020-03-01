@@ -1,0 +1,60 @@
++ Define the scope
+  ~ A ToDo app with dependency tracking and resource management, that let me:
+    -! Create new tickets
+    -! View current tickets
+    -! Delete tickets
+    -! Edit existing tickets
+    - Sort tickets by number, summary, priority,
+      priority + dependencies + summary
+    - Search tickets by all fields
+    - Filter tickets by all fields
+    The should be written using React
+    The app should satisfy WCAG 2.1 requirements
+  ~ A ticket:
+    -! number
+    -! summary
+    -! assignee
+    -! priority
+    -! dependencies
+    - parent
+    - children
+    - labels
+  ~ Project setup:
+    + Git,
+    - NPM,
+      - private
+      - browserslist
+      - engines
+    - HTML
+    - Prettier,
+    - Webpack,
+    - ESLint,
+      - airbnb
+      - prettier
+      - import
+      - jsx-a11y
+      - react
+      - react-hooks
+    - Stylelint,
+    - Jest
+      - coverage report
++ Find HTML template: https://github.com/h5bp/html5-boilerplate
++ Create a repo on GitHub: https://github.com/metamal/to-do-test
++ Create to-do.txt for the project
+- npm init
+  - private
+  - engines
+  - browserslist
+- Add prettier
+- Use HTML5 Boilerplate
+- Clean initial project in WebStorm
+- Make sure it works with python web-server
+- Add dummy main.js
+- Set up minimal Webpack build with python web-server
+- Set up webpack-dev-server
+- Set up ESLint
+- Set up StyleLint
+- Set up Minimal React project
+- Set up Jest with Enzyme
+- Set up minimal Redux project
+- Implement MVP
