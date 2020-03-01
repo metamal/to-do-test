@@ -49,8 +49,8 @@
     ~ https://github.com/browserslist/browserslist#readme
     ~ https://github.com/browserslist/browserslist-example
     ~ https://browserl.ist/
++ Use HTML5 Boilerplate
 - Add prettier
-- Use HTML5 Boilerplate
 - Clean initial project in WebStorm
 - Make sure it works with python web-server
 - Add dummy main.js
