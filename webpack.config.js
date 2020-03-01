@@ -10,7 +10,7 @@ module.exports = {
   mode: 'development',
   entry: './src/js/main.js',
   output: {
-    filename: 'js/[name].[contenthash].bundle.js',
+    filename: 'js/[name].[hash].bundle.js',
     path: path.resolve(__dirname, 'dist'),
   },
   resolve: {
@@ -43,4 +43,8 @@ module.exports = {
     ]),
   ],
   devtool: 'inline-source-map',
+  devServer: {
+    hot: true,
+    open: true,
+  },
 };

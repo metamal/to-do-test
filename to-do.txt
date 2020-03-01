@@ -65,7 +65,7 @@
   + Add cache busting
   + Add source maps
   + Copy over remaining assets
-- Set up webpack-dev-server
++ Set up webpack-dev-server
 - Set up ESLint
 - Set up StyleLint
 - Set up Minimal React project
