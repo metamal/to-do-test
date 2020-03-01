@@ -21,13 +21,13 @@
     - labels
   ~ Project setup:
     + Git,
-    - NPM,
+    + NPM,
       - private
       - browserslist
       - engines
-    - HTML
-    - Prettier,
-    - Webpack,
+    + HTML
+    + Prettier,
+    + Webpack,
     - ESLint,
       - airbnb
       - prettier
@@ -66,9 +66,9 @@
   + Add source maps
   + Copy over remaining assets
 + Set up webpack-dev-server
++ Set up Minimal React project
 - Set up ESLint
 - Set up StyleLint
-- Set up Minimal React project
 - Set up Jest with Enzyme
 - Set up minimal Redux project
 - Implement MVP

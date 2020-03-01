@@ -19,6 +19,22 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.js$/,
+        include: [srcPath],
+        use: [
+          {
+            loader: 'babel-loader',
+            options: {
+              presets: [
+                ['@babel/preset-env', {modules: false}],
+                '@babel/preset-react',
+              ],
+              cacheDirectory: true,
+            },
+          },
+        ],
+      },
+      {
         test: /\.css$/,
         use: [
           MiniCssExtractPlugin.loader,
