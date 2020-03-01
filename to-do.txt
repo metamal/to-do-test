@@ -36,8 +36,8 @@
       - react
       - react-hooks
     + Stylelint,
-    - Jest
-      - coverage report
+    + Jest
+      + coverage report
 + Find HTML template: https://github.com/h5bp/html5-boilerplate
 + Create a repo on GitHub: https://github.com/metamal/to-do-test
 + Create to-do.txt for the project
@@ -69,6 +69,6 @@
 + Set up Minimal React project
 + Set up ESLint
 + Set up StyleLint
-- Set up Jest with Enzyme
++ Set up Jest with Enzyme
 - Set up minimal Redux project
 - Implement MVP
