@@ -54,7 +54,17 @@
 + Clean initial project in WebStorm
 + Make sure it works with python web-server
 + Add dummy main.js
-- Set up minimal Webpack build with python web-server
++ Set up minimal Webpack build with python web-server
+  ~ https://webpack.js.org/guides/getting-started/
+  + npm i --save-dev --save-exact webpack webpack-cli
+  + Add webpack.config.js
+  + Add npm build command
+  + Use clean-webpack-plugin
+  + Use html-webpack-plugin
+  + Load CSS
+  + Add cache busting
+  + Add source maps
+  + Copy over remaining assets
 - Set up webpack-dev-server
 - Set up ESLint
 - Set up StyleLint
