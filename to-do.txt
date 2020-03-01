@@ -1,5 +1,5 @@
 + Define the scope
-  ~ A ToDo app with dependency tracking and resource management, that let me:
+  ~ A ToDo app with dependency tracking and resource management, that lets me:
     -! Create new tickets
     -! View current tickets
     -! Delete tickets
@@ -51,9 +51,9 @@
     ~ https://browserl.ist/
 + Use HTML5 Boilerplate
 + Add prettier
-- Clean initial project in WebStorm
-- Make sure it works with python web-server
-- Add dummy main.js
++ Clean initial project in WebStorm
++ Make sure it works with python web-server
++ Add dummy main.js
 - Set up minimal Webpack build with python web-server
 - Set up webpack-dev-server
 - Set up ESLint
