@@ -35,7 +35,7 @@
       - jsx-a11y
       - react
       - react-hooks
-    - Stylelint,
+    + Stylelint,
     - Jest
       - coverage report
 + Find HTML template: https://github.com/h5bp/html5-boilerplate
@@ -68,7 +68,7 @@
 + Set up webpack-dev-server
 + Set up Minimal React project
 + Set up ESLint
-- Set up StyleLint
++ Set up StyleLint
 - Set up Jest with Enzyme
 - Set up minimal Redux project
 - Implement MVP

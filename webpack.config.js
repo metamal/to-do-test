@@ -3,10 +3,13 @@ const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const StylelintPlugin = require('stylelint-webpack-plugin');
 
+const rootPath = path.resolve(__dirname, '.');
 const srcPath = path.resolve(__dirname, 'src');
 
 module.exports = {
+  context: rootPath,
   mode: 'development',
   entry: './src/js/main.js',
   output: {
@@ -51,6 +54,9 @@ module.exports = {
     new HtmlWebpackPlugin({template: './src/index.html'}),
     new MiniCssExtractPlugin({
       filename: 'css/[name].[contenthash].css',
+    }),
+    new StylelintPlugin({
+      files: 'src/**/*.css',
     }),
     new CopyPlugin([
       './src/.htaccess',
