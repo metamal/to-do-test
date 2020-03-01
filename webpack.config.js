@@ -24,21 +24,7 @@ module.exports = {
       {
         test: /\.js$/,
         include: [srcPath],
-        use: [
-          {
-            loader: 'babel-loader',
-            options: {
-              presets: [
-                ['@babel/preset-env', {modules: false}],
-                '@babel/preset-react',
-              ],
-              cacheDirectory: true,
-            },
-          },
-          {
-            loader: 'eslint-loader',
-          },
-        ],
+        use: ['babel-loader', 'eslint-loader'],
       },
       {
         test: /\.css$/,
