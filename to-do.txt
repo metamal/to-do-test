@@ -28,7 +28,7 @@
     + HTML
     + Prettier,
     + Webpack,
-    - ESLint,
+    + ESLint,
       - airbnb
       - prettier
       - import
@@ -67,7 +67,7 @@
   + Copy over remaining assets
 + Set up webpack-dev-server
 + Set up Minimal React project
-- Set up ESLint
++ Set up ESLint
 - Set up StyleLint
 - Set up Jest with Enzyme
 - Set up minimal Redux project
