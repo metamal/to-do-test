@@ -41,10 +41,14 @@
 + Find HTML template: https://github.com/h5bp/html5-boilerplate
 + Create a repo on GitHub: https://github.com/metamal/to-do-test
 + Create to-do.txt for the project
-- npm init
-  - private
-  - engines
-  - browserslist
++ npm init
+  ~ https://docs.npmjs.com/files/package.json
+  + private
+  + engines
+  + browserslist
+    ~ https://github.com/browserslist/browserslist#readme
+    ~ https://github.com/browserslist/browserslist-example
+    ~ https://browserl.ist/
 - Add prettier
 - Use HTML5 Boilerplate
 - Clean initial project in WebStorm

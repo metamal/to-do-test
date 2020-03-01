@@ -1,0 +1,24 @@
+{
+  "name": "to-do-test",
+  "version": "0.0.1",
+  "description": "React/Redux/Etc playground project",
+  "author": "Alexander Nikitin <metamal@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metamal/to-do-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/metamal/to-do-test/issues"
+  },
+  "homepage": "https://github.com/metamal/to-do-test#readme",
+  "engines": {
+    "node": ">=12.12.0",
+    "npm": ">=6.11.3"
+  },
+  "browserslist": ["defaults"]
+}
